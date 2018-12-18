@@ -1,0 +1,19 @@
+download the vmware workstation 14 or vmware player, download the following ubuntu 14.04 desktop amd64 version from https://mirror.umd.edu/ubuntu-iso/14.04/
+or from https://www.ubuntu.com/download/alternative-downloads
+scroll down till Ubuntu 14.04 LTS desktop 64-bit link.
+
+Install ubuntu on the vmware platform - here is a link on how to do this: https://theholmesoffice.com/installing-ubuntu-in-vmware-player-on-windows/
+
+
+after the installation, open a terminal and run the following commands (one by one):
+
+sudo apt-get install g++
+sudo apt-get install gcc
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essential
+
+then follow the next tutorial for a hello world c++ program:
+http://blog.sudobits.com/2011/10/21/how-to-compile-and-run-c-c-plus-plus-program-on-ubuntu-11-10/
+
+if you followed the steps correctly everything should be good to go!
