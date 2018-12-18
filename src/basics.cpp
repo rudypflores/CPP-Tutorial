@@ -1,5 +1,15 @@
 /*My first C++ program*/
 
+/*
+	**Steps to compiling your first program in terminal**
+
+	use g++ <file directory> -o <name for object made>
+	then, use ./<object name>
+
+	~/<file name> helps you access your file without having 
+	to write the whole file extension as well!
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -67,6 +77,7 @@ int main() {
     double cast = 3.5;
     cout << (int) cast << endl; //(type) value == casting, where we convert a data type to another
 
+    
 
     return 0;
 }
