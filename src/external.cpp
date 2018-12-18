@@ -5,6 +5,6 @@ extern double number;
 extern string s;
 
 void writeExtern(void) {
-	cout << number << std::endl;
+	cout << number << endl;
 	cout << s;
 }
