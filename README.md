@@ -6,3 +6,6 @@ A tutorial that shows you the most basic but essential concepts of C++, this tut
 - Ubuntu Terminal
 - C++ Basics
 - How to install Ubuntu and compile your first helloWorld.cpp program!
+- Data Structures
+- Classes
+- Object Oriented Programming
