@@ -11,6 +11,9 @@
 */
 
 #include <iostream>
+#include <cmath> //import for math built in C++ functions
+#include <cstdlib> //import for random number generation function
+
 using namespace std;
 
 double number;
@@ -140,6 +143,44 @@ int main() {
     cout << p << " and " << q << endl;
     swapReference(p, q);
     cout << p << " and " << q << endl;
+
+    //Math functions in C++
+    int mathA = 5;
+    int mathB = 13;
+    double mathC = 25.7;
+
+    cout << "sin(5): " << sin(5) << endl;
+    cout << "floor(25.7): " << floor(mathC) << endl;
+
+    //Random numbers in C++
+    srand((unsigned) time(NULL));
+    mathB = rand();
+    cout << mathB << endl;
+
+    //Arrays in C++
+
+    //Declaration
+    double arr[10];
+    int arrInt[] = {1, 2, 3, 4, 5};
+    int arrInt2[5] = {1, 2, 3, 4, 5};
+
+    //2D array
+    int arrInt3[3][3] = {
+        {1,2,3},
+        {1,2,3},
+        {1,2,3}
+    };
+
+    //assigning value
+
+    //before
+    cout << arrInt[3] << endl;
+    arrInt[3] = 99;
+
+    //after
+    cout << arrInt[3] << endl;
+
+
 
     //We always return 0 at the end of our main method
     return 0;
